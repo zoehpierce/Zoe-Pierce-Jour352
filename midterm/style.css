@@ -1,0 +1,66 @@
+.headline {
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
+  font-size: 300%;
+  text-align: center;
+}
+
+.subheader {
+  text-align: center;
+}
+
+.byline {
+  font-family: 'Merriweather', serif;
+  font-weight: 200;
+  font-size: 100%;
+  font-style: italic;
+}
+
+blockquote {
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left:50px;
+  padding-left:15px;
+  border-left:4px solid #ccc;
+  color:inherit;
+  font-weight:400;
+}
+
+#content {
+  margin: 0 auto;
+  width: 900;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+#h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: 600;
+  font-size: 110%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.blockquote{
+  color: #6482B3;
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left:50px;
+  padding-left:15px;
+  border-left:4px solid #ccc;
+  font-weight:600;
+}
+
+.readmore {
+  background-color:#6482B3;
+}
