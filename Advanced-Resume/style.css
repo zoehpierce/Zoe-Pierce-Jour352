@@ -1,16 +1,25 @@
 .container {
 background-color: #dae2ff;
 color: #727992;
-text-align:center;
 width:100%;
 margin-left: auto;
 margin-right: auto;
 padding-right: 15px;
 padding-left: 15px
+font-family: 'Lato', sans-serif;
 }
 
-.center {
+.subtitle {
   text-align: center;
+  padding-top: 10px;
+
+}
+
+.title-section {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 200%;
+  font-family: 'Train One', cursive;
 }
 
 #center {
@@ -27,6 +36,7 @@ padding-left: 15px
 
 #section-title {
   font-size: 110%;
+font-family: 'Lato', sans-serif;
 }
 
 .div {
@@ -48,4 +58,35 @@ padding-right: 15px;
 padding-left: 15px
 display: flex;
 justify-content: space-evenly;
+}
+
+#footer {
+  text-align: center;
+  background-color: #dae2ff;
+  color: #727992;
+}
+
+
+a:link {
+  color: #727992;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #727992;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #727992;
+  background-color: transparent;
+  text-decoration: underline;
 }
