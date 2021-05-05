@@ -13,6 +13,22 @@ font-family: 'Lato', sans-serif;
   background-color: #DFE4E1;
 }
 
+.first-letter {
+  font-size: 30px;
+  line-height: 70px;
+  font-style: italic;
+}
+
+#h1 {
+  font-style: italic;
+  font-family:'Lato', sans-serif;
+  text-align: center;
+  padding-bottom: 50px;
+}
+#byline {
+  text-decoration: underline;
+  font-style: italic;
+}
 
 ul {
   position: -webkit-sticky; /* Safari */
@@ -43,4 +59,37 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
+}
+
+.pquote {
+    float: left;
+    width: 100px;
+    background: #ddf;
+    font-weight: bold;
+    padding: 13px;
+    margin: 0 13px 13px 0;
+}
+
+blockquote {
+    margin: 0; /* gets rid of the default blockquote margin */
+}
+
+.pquote {
+    float: left;
+    width: 200px;
+    background: url(images/openquote.gif) top left no-repeat;
+    color: #FA6D79;
+    font-size: 26px;
+    line-height: 0.9;
+    font-style: italic;
+    padding: 13px;
+}
+
+blockquote {
+    margin: 0;
+}
+
+.pquote p:first-letter {
+    font-size: 39px;
+    font-weight: bold;
 }
