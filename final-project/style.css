@@ -11,6 +11,9 @@ font-family: 'Lato', sans-serif;
 
 .body {
   background-color: #DFE4E1;
+  padding-right: 40px;
+  padding-left: 40px
+
 }
 
 .first-letter {
@@ -58,7 +61,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #DFE4E1;
 }
 
 .pquote {
@@ -89,7 +92,32 @@ blockquote {
     margin: 0;
 }
 
-.pquote p:first-letter {
-    font-size: 39px;
-    font-weight: bold;
+
+div.polaroid {
+  width: 50%;
+  background-color: #FA6D79;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
 }
+
+div.container {
+  padding: 10px 20px;
+}
+
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.tweet {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #FA6D79;
+  color: #DFE4E1;
